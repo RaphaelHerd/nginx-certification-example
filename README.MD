@@ -25,6 +25,6 @@ Copy the client certs from scripts/certs to client-config.
 
 2. Use the curl client to test the connection and cert validation. Change directory to client-config. Use
 
-**curl -v -s -k --key client.key --cert client.crt https://localhost**
+'''curl -v -s -k --key client.key --cert client.crt https://localhost'''
 
 for testing the connection. View logs of client and server.
