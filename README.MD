@@ -4,7 +4,7 @@ This repositoy is used as demo for configuring an NGINX Server with http as well
 All certs are self signed and therefore for developement only.
 
 # Step 1 - Generate Certificates for SSL
-Generate the demo certs by using the ***scripts/create-certs.sh** shell scrip. It will create the necessary certs for the server and the client.
+Generate the demo certs by using the ***scripts/create-certs.sh*** shell scrip. It will create the necessary certs for the server and the client.
 
 # Step 2 - Move Certs to Server and Client
 On the server side we are only using 
